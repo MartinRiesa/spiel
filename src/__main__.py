@@ -6,7 +6,8 @@ def main():
     pygame.init()
 
     # Bildpfad und Laden
-    image_path = "../assets/images/train.png"
+    image_path = "assets/images/train.png"
+
     train_img = pygame.image.load(image_path)
 
     # Fenster erzeugen
